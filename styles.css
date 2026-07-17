@@ -481,6 +481,9 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   border-radius: 50%;
   border: 1px solid var(--ink);
   background: var(--paper);
+   color: var(--ink);
+  -webkit-appearance: none;
+  appearance: none;
   font-size: 18px;
   line-height: 1;
   cursor: pointer;
@@ -675,6 +678,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   border-top: 1.5px solid var(--ink);
   padding-top: 12px;
   margin-top: 2px;
+  .gc-break-mobile{ display: none; }
 }
 
 .gc-stub{
@@ -711,6 +715,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   .gc-field .gc-label{ font-size: 8px; }
   .gc-field .gc-value{ font-size: 10px; }
 .gc-field .gc-value--accent{ font-size: 1.3em; }
+.gc-break-mobile{ display: block; }
 }
 
 .receipt__social{
