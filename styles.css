@@ -621,7 +621,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
 }
 .gc-number{
   position: absolute;
-  top: 6px;
+  top: 3px;
   right: 26px;
   font-family: var(--mono);
   font-weight: 700;
@@ -711,7 +711,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
 
 @media (max-width: 480px){
   .gc-title{ font-size: 26px; }
-  .gc-number{ font-size: 14px; top: 4px; right: 16px; }
+  .gc-number{ font-size: 14px; top: 2px; right: 16px; }
   .gc-field .gc-label{ font-size: 8px; }
   .gc-field .gc-value{ font-size: 10px; }
 .gc-field .gc-value--accent{ font-size: 1.3em; }
