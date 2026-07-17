@@ -701,12 +701,16 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   right: 0;
   font-size: 15px;
 }
+   @media (max-width: 600px){
+  .em--break{ display: block; }
+}
 
 @media (max-width: 480px){
   .gc-title{ font-size: 26px; }
   .gc-number{ font-size: 14px; top: 4px; right: 16px; }
   .gc-field .gc-label{ font-size: 8px; }
   .gc-field .gc-value{ font-size: 10px; }
+.gc-field .gc-value--accent{ font-size: 1.3em; }
 }
 
 .receipt__social{
