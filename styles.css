@@ -692,7 +692,6 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
 .guest-check + .btn--primary{
   margin-top: 40px;
 }
-}
 .gc-stub__label{
   font-family: var(--display);
   font-weight: 700;
