@@ -690,7 +690,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   position: relative;
 }
 .gc-stub + .btn--primary{
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .gc-stub__label{
   font-family: var(--display);
