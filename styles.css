@@ -678,8 +678,8 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   border-top: 1.5px solid var(--ink);
   padding-top: 12px;
   margin-top: 2px;
-  .gc-break-mobile{ display: none; }
 }
+.gc-break-mobile{ display: none; }
 
 .gc-stub{
   max-width: 420px;
