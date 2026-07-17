@@ -697,7 +697,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   font-weight: 700;
   font-style: italic;
   font-size: 16px;
-  margin: 0 0 8px;
+  margin: 0 0 40px;
 }
 .gc-fields--stub{ position: relative; }
 .gc-stub .gc-number{
