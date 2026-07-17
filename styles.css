@@ -34,6 +34,7 @@ body{
   font-size: 18px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 a{ color: inherit; }
@@ -433,6 +434,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
 .carousel__frame{
   position: relative;
   flex: 1;
+  min-width: 0; 
   padding: clamp(32px, 8vw, 96px);
   background: var(--paper);
 }
