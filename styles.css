@@ -689,15 +689,16 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   padding-top: 13.5px;
   position: relative;
 }
-.gc-stub + .btn--primary{
-  margin-top: 100px;
+.guest-check + .btn--primary{
+  margin-top: 40px;
+}
 }
 .gc-stub__label{
   font-family: var(--display);
   font-weight: 700;
   font-style: italic;
   font-size: 16px;
-  margin: 0 0 40px;
+  margin: 0 0 8px;
 }
 .gc-fields--stub{ position: relative; }
 .gc-stub .gc-number{
@@ -716,6 +717,7 @@ em{ font-family: var(--script); font-style: normal; color: var(--red); font-weig
   .gc-field .gc-value{ font-size: 10px; }
 .gc-field .gc-value--accent{ font-size: 1.3em; }
 .gc-break-mobile{ display: block; }
+.gc-total-row{ text-align: right; }
 }
 
 .receipt__social{
